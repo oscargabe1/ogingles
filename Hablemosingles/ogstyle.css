@@ -1,0 +1,230 @@
+/*PAGINA MAIN*/
+.ogcontainer{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #c3e3f4;
+}
+.ogbuttoncontainer{
+	width: 35%;
+	height: 100px;
+	padding-top: 10px;
+	display: block;
+	margin: 0 auto;
+
+}
+.ogbuttoncontainer2{
+	width: 50%;
+	
+	padding-top: 10px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+.ogcontainer2{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #465d88;
+}
+.ogcontainer3{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #465d88;
+}
+.ogimginicio{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	padding-top:30%;
+	text-align: center;
+}
+.ogimgin{
+	width: 100%;
+	max-width: 600px;
+}
+.ogimgcontainer{
+	
+	width: 300px;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	margin-bottom:1px;
+	text-align: center;
+}
+.ogimg{
+	width: 100%;
+}
+
+.ogunit{
+	width: 100%;
+	min-height: 65px;
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.ogleftimgcontainer{
+	width:32px;
+	margin:0;
+	margin: auto 0px;
+}
+.ogiconoclase{
+	width: 100%;
+
+}
+.ogtitle{
+	width: 75%;
+	margin: auto 0px;
+	margin-left: 10px;
+}
+.ogh1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+padding-bottom: 4px;
+	
+}
+.ogiconcontainer{
+	text-align: right;
+	width:30px;
+	margin:0;
+	margin: auto 0px;
+
+}
+.ogicon{
+	font-size: 100px;
+
+}
+#ogsegment{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+
+#ogheader{
+	color:#465d88;
+}
+
+
+.ogheader{
+	background-color: #465d88;
+	width: 100%;
+	min-height: 120px;
+}
+/*.ogh1{
+	font-size: 5em;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#ffffff;
+	padding: 8px;
+	text-align: center;
+}	*/
+.iconoclase{
+	width:25px;
+}
+.oga{
+	padding: 0 5px;
+	text-decoration: none;
+	font-size: 1.9em;
+	color:black;
+	width: 100px;
+}
+#righticon{
+	right: 10px;
+}
+.ogfixed{
+	padding-bottom: 14px;
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	z-index: 1000;
+}
+.ogtopmargin{
+	padding-top: 70px;
+}
+.ogtopmargin2{
+	padding-top: 104px;
+}
+#ogbuttonmargin{
+	margin-top: 3px;
+	margin-bottom: 3px; 
+}
+					#ogbutton0{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton1{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton2{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton3{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton4{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton5{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton6{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton7{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton8{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					#ogbutton9{
+						margin-top: 3px;
+						margin-bottom: 3px; 
+					}
+					.ognextex{
+						display: none;
+					}
+.ogtext{
+	margin-bottom: 1px;
+	margin-left: 5px;
+	font-weight: bold;
+}
+.ogcentered{
+	text-align: center;
+}
+.ogcenteredvideo{
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+.ogcenteredvideo iframe{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.og100{
+	width: 100%;
+}
+.ogvocfixed{
+	padding-top: 68px;
+	padding-left: 1em;
+	padding-right:1em;
+	
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.ogexpressions{
+	display:none;
+}

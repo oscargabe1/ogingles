@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+	<link rel="stylesheet" type="text/css" href="ogstyle.css">
+	
+</head>
+<body>
+<!-- 	<div class="ogheader">
+		<div>
+			<h1 class="ui huge header"> lmao</h1>
+		</div>
+	</div> -->
+<div class="ogfixed">
+	<div class="ui blue inverted menu">
+	
+		<a href="menu.html" class="launch icon item">
+			<i class="angle left icon"></i>
+		</a>
+		<a onclick="window.location.href='pag4.html'" class="item active">Vocabulary &<br>Expressions</a>
+		<a onclick="window.location.href='pag5.html'" class="item">Exercises</a>
+		<a onclick="window.location.href='pag3.html'" class="item">Dialogue</a>
+	
+	</div>
+</div>
+
+	<div class="ogvocfixed">
+
+		<div class="two ui buttons">
+		  <button onclick="getVocabulary();" class="ui button">Vocabulary</button>
+		  <button onclick="getExpressions();" class="ui button">Expressions</button>
+		  
+		</div>
+	</div>
+
+<div class="ui container">
+
+	<div class="ogtopmargin2">
+
+		<div class="ogvocabulario">
+			<div class="ui segment">
+			  <div class="ui relaxed divided list">
+			    <div class="item">
+			      <div onclick="playAudio(1);" class="content">
+			       <div id="ogheader" class="header">1.-ABOUT</div>
+			        Acerca de. <br>
+			        It is about my grades. <br>
+			        Es acerca de mis calificaciónes.
+			      </div>
+			    </div>
+			   <div class="item">
+			      <div onclick="playAudio(2);" class="content">
+			        <div id="ogheader" class="header">2.-ABSENT</div>
+			        Acerca de. <br>
+			        Michael is absent today. <br>
+			        Miguel está ausente hoy.
+			      </div>
+			    </div>
+			   <div class="item">
+			      <div onclick="playAudio(3);" class="content">
+			        <div id="ogheader" class="header">3.-ACCIDENT</div>
+			        Accidente. <br>
+			        That was an accident. <br>
+			        Eso fue un accidente.
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div onclick="voc();" class="content">
+			       <div id="ogheader" class="header">4.-ACCOUNT</div>
+			        Cuenta. <br>
+			        This is Peter's account. <br>
+			        Esta es la cuenta de Pedro.
+			      </div>
+			    </div>
+
+			     <div class="item">
+			      <div onclick="voc();" class="content">
+			       <div id="ogheader" class="header">5.-ACROSS</div>
+			        A través de, al otro lado. <br>
+			        My house is across the street. <br>
+			        Mi casa está al otro lado de la calle.
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div onclick="voc();" class="content">
+			       <div id="ogheader" class="header">6.-ACTOR</div>
+			        Actor. <br>
+			        My cousin is a good actor. <br>
+			        Mi primo es un buen actor.
+			      </div>
+			    </div>
+
+			     <div class="item">
+			      <div onclick="voc();" class="content">
+			       <div id="ogheader" class="header">7.-ADVANTAGE</div>
+			        Ventaja. <br>
+			        This is a great advantage. <br>
+			        Esta es una gran ventaja.
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div onclick="voc();" class="content">
+			       <div id="ogheader" class="header">8.-ADVERTISEMENT</div>
+			        Anuncio, publicidad. <br>
+			        This is an expensive advertisement. <br>
+			        Este es un anuncio caro.
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div onclick="voc();" class="content">
+			       <div id="ogheader" class="header">9.-AFFAIR</div>
+			        Asunto, compromiso, evento. <br>
+			        This will be an important business affair. <br>
+			        Este será un asunto de negocios importante.
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div onclick="voc();" class="content">
+			       <div id="ogheader" class="header">10.-AFTERNOON</div>
+			        Tarde (despues de mediodía). <br>
+			        Alex is at home the whole afternoon. <br>
+			        Alex está en casa toda la tarde.
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+		</div>
+
+
+
+
+		<div class="ogexpressions">
+			<div class="ui segment">
+			  <div class="ui relaxed divided list">
+			    <div class="item">
+			      <div onclick="playAudio(4);" class="content">
+			       <div id="ogheader" class="header">1.-TO GO SHOPPING</div>
+			        Ir de compras. <br>
+			        We are going shopping with Alex. <br>
+			        Vamos a ir de compras con Alex.
+			      </div>
+			    </div>
+			   <div class="item">
+			      <div onclick="playAudio(5);" class="content">
+			        <div id="ogheader" class="header">2.-TO TAKE A WALK</div>
+			        Dar un paseo (a pie). <br>
+			        They took a walk in the park. <br>
+			        Ellos dieron un paseo en el parque.
+			      </div>
+			    </div>
+
+			   <div class="item">
+			      <div onclick="playAudio(6);" class="content">
+			        <div id="ogheader" class="header">3.-EXCUSE ME</div>
+			        Disculpe, con permiso. <br>
+			        Excuse me, may I come in? <br>
+			        Disculpe, puedo pasar?
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div class="content">
+			        <div id="ogheader" class="header">4.-HOW ARE YOU?</div>
+			        ¿Cómo estás? <br>
+			        How are you? <br>
+			        ¿Cómo estás?
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div class="content">
+			        <div id="ogheader" class="header">5.-WHAT'S NEW?</div>
+			        ¿Qué hay de nuevo? <br>
+			        What's new Esther? <br>
+			        ¿Qué hay de nuevo, Esther?
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div class="content">
+			        <div id="ogheader" class="header">6.-ACCORDING TO</div>
+			        De acuerdo a. <br>
+			        According to the law you are wrong. <br>
+			        De acuerdo a la ley, usted está equivocado.
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div class="content">
+			        <div id="ogheader" class="header">7.-TO GIVE (ONE'S) REGARDS TO</div>
+			        Saludar a, mandar saludos a. <br>
+			        Give my regards to your father. <br>
+			        Saludame a tu padre.
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div class="content">
+			        <div id="ogheader" class="header">8.-HOW OLD ARE YOU?</div>
+			        ¿Cuántos años tienes? <br>
+			        How old are you? <br>
+			        ¿Cuántos años tienes?
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div class="content">
+			        <div id="ogheader" class="header">9.-ONCE UPON A TIME</div>
+			        Había una vez. <br>
+			        Once uppon a time, there was a beatiful girl... <br>
+			        Había una vez, una niña hermosa...
+			      </div>
+			    </div>
+
+			    <div class="item">
+			      <div class="content">
+			        <div id="ogheader" class="header">10.-ALTHOUGH</div>
+			        A pesar de, aunque. <br>
+			        He was hungry although he had already eaten. <br>
+			        Él tenía hambre a pesar de que ya había comido.
+			      </div>
+			    </div>
+
+			  </div>
+			</div>
+		</div>
+
+	
+
+	
+
+
+			<div class="ogbuttoncontainer2">
+		
+				<button onclick="window.location.href='pag5.html'" class="ui right labeled icon blue button">
+				  
+				 Next Step <hr> Exercises 
+				 <i class="right arrow icon"></i>
+				</button>
+				
+			</div>
+			<br>
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</body>
+	<script type="text/javascript" src="js/functionality.js"></script>
+	<script type="text/javascript" src="semantic/dist/semantic.min.js"></script>
+</html>

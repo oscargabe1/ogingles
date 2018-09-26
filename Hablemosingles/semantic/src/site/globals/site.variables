@@ -1,0 +1,9 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@primaryColor: #465d88;
+
+@blue: #465d88;
+
+@iconWidth : 1.18em;
