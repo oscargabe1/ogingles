@@ -267,8 +267,8 @@ let nextExcercise = document.querySelector(".ognextex");
 
 	if (answerArray.toString() == oracionArray.toString() && answerArray.length == oracionArray.length) {
 		console.log("ganaste");
-		ogcheckbutton.className ="ui green button";
-		ogcheckbutton.innerHTML ="Correct!";
+		getCheckButton.className ="ui green button";
+		getCheckButton.innerHTML ="Correct!";
 		nextExcercise.style.display = "inline";
 		
 
@@ -278,8 +278,8 @@ let nextExcercise = document.querySelector(".ognextex");
 	}
 	else if(answerArray.toString() != oracionArray.toString() && answerArray.length == oracionArray.length){
 		console.log("perdiste");
-		ogcheckbutton.className ="ui red button";
-		ogcheckbutton.innerHTML ="Try again!";
+		getCheckButton.className ="ui red button";
+		getCheckButton.innerHTML ="Try again!";
 	}
 
 
@@ -320,7 +320,8 @@ function playAudio(audionum){
 
 
 function reset(){
-	let getCheckButton = document.querySelector("#ogcheckbutton");
+	let getCheckButton = document.querySelector("#ogcheckbutton").innerHTML = "Check";
+	let getCheckButton2 = document.querySelector("#ogcheckbutton").className = "ui blue button";
 	clearBoard();
 	answerArray = [];
 	let resetb1 = document.querySelector("#ogbutton0").className="ui button";
@@ -333,8 +334,8 @@ function reset(){
 	let resetb8 = document.querySelector("#ogbutton7").className="ui button";
 	let resetb9 = document.querySelector("#ogbutton8").className="ui button";
 	let resetb10 = document.querySelector("#ogbutton9").className="ui button";
-	ogcheckbutton.className ="ui blue button";
-	ogcheckbutton.innerHTML ="Check";
+	
+
 }
 
 
