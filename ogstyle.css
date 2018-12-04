@@ -147,6 +147,12 @@ padding-bottom: 4px;
 .ogtopmargin2{
 	padding-top: 104px;
 }
+.ogtopmargin3{
+	padding-top: 150px;
+}
+.ogtopmargin4{
+	padding-top: 120px;
+}
 #ogbuttonmargin{
 	margin-top: 3px;
 	margin-bottom: 3px; 
@@ -227,4 +233,68 @@ padding-bottom: 4px;
 }
 .ogexpressions{
 	display:none;
+}
+
+
+
+
+
+.oggroup{
+	width: 100%;
+	text-align: center;
+	flex-wrap: wrap;
+}
+.ogword{
+	width: 50%;
+	margin-bottom: 20px;
+	padding: 0px;
+	float: left;
+}
+.ogwordimg{
+	width: 10em;
+}
+.ogwordtext{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.oggroup2, .oggroup3, .oggroup4{
+	width: 100%;
+	text-align: center;
+	flex-wrap: wrap;
+	display: none;
+}
+
+#ogtext, #ogtext2{
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 250%;
+}
+
+#ogdiss{
+	display: none;
+}
+
+
+
+/*------------NEW MENU----------------*/
+
+.ogmodulecontainer{
+	width: 100%;
+
+	text-align: center;
+}
+
+.ogmodule{
+	width: 65px;
+	margin: 10px 2em;
+	text-align: center;
+	display: inline-block;
+
+}
+.ogmenuimg{
+	width: 100%;
+}
+.ogmodule h4{
+	margin: 5px;
 }

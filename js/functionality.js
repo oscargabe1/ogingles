@@ -373,6 +373,242 @@ function ejercicio4(){
 
 
 
+/////////////////////////////////////
+
+
+//Group of Words
+
+
+function getGroup2(){
+	console.log("lmao");
+	let cambiarContenido = document.querySelector(".oggroup");
+	let cambiarContenido2 = document.querySelector(".oggroup2");
+	let cambiarContenido3 = document.querySelector(".oggroup3");
+	let cambiarContenido4 = document.querySelector(".oggroup4");
+
+			cambiarContenido.style.display ="none";
+			cambiarContenido3.style.display ="none";
+			cambiarContenido4.style.display ="none";
+			cambiarContenido2.style.display ="inline";
+
+		
+}
+
+function getGroup1(){
+	console.log("lmao");
+	let cambiarContenido2 = document.querySelector(".oggroup");
+	let cambiarContenido = document.querySelector(".oggroup2");
+	let cambiarContenido3 = document.querySelector(".oggroup3");
+	let cambiarContenido4 = document.querySelector(".oggroup4");
+
+			cambiarContenido.style.display ="none";
+			cambiarContenido3.style.display ="none";
+			cambiarContenido4.style.display ="none";
+			cambiarContenido2.style.display ="inline";
+
+		
+}
+
+function getGroup3(){
+	console.log("lmao");
+	let cambiarContenido2 = document.querySelector(".oggroup");
+	let cambiarContenido = document.querySelector(".oggroup2");
+	let cambiarContenido3 = document.querySelector(".oggroup3");
+	let cambiarContenido4 = document.querySelector(".oggroup4");
+
+			cambiarContenido.style.display ="none";
+			cambiarContenido3.style.display ="inline";
+			cambiarContenido2.style.display ="none";
+			cambiarContenido4.style.display ="none";	
+}
+
+function getGroup4(){
+	console.log("lmao");
+	let cambiarContenido2 = document.querySelector(".oggroup");
+	let cambiarContenido = document.querySelector(".oggroup2");
+	let cambiarContenido3 = document.querySelector(".oggroup3");
+	let cambiarContenido4 = document.querySelector(".oggroup4");
+
+			cambiarContenido.style.display ="none";
+			cambiarContenido3.style.display ="none";
+			cambiarContenido2.style.display ="none";
+			cambiarContenido4.style.display ="inline";	
+}
+
+
+
+
+
+///////
+//Ejercicio A AN THE
+
+let ExcerciseNo = 1;
+let ExcerciseAnswer;
+let ExcerciseAnswer2;
+
+
+function pressButtonU1A(){
+	let getButton = document.querySelector("#abutton");
+	let getButton2 = document.querySelector("#anbutton");
+	let getButton3 = document.querySelector("#thebutton");
+	getButton.className="ui blue button";
+	getButton2.className="ui button";
+	getButton3.className="ui button";
+	ExcerciseAnswer = "a";
+	console.log(ExcerciseAnswer);
+}
+
+function pressButtonU1An(){
+	let getButton = document.querySelector("#abutton");
+	let getButton2 = document.querySelector("#anbutton");
+	let getButton3 = document.querySelector("#thebutton");
+	getButton.className="ui button";
+	getButton2.className="ui blue button";
+	getButton3.className="ui button";
+	ExcerciseAnswer = "an";
+	console.log(ExcerciseAnswer);
+}
+
+function pressButtonU1The(){
+	let getButton = document.querySelector("#abutton");
+	let getButton2 = document.querySelector("#anbutton");
+	let getButton3 = document.querySelector("#thebutton");
+	getButton.className="ui button";
+	getButton2.className="ui button";
+	getButton3.className="ui blue button";
+	ExcerciseAnswer = "the";
+	console.log(ExcerciseAnswer);
+}
+
+
+function pressButtonU1A2(){
+	let getButtonx = document.querySelector("#abuttonx");
+	let getButton2x = document.querySelector("#anbuttonx");
+	let getButton3x = document.querySelector("#thebuttonx");
+	getButtonx.className="ui blue button";
+	getButton2x.className="ui button";
+	getButton3x.className="ui button";
+	ExcerciseAnswer2 = "a";
+	console.log(ExcerciseAnswer2);
+}
+function pressButtonU1An2(){
+	let getButtonx = document.querySelector("#abuttonx");
+	let getButton2x = document.querySelector("#anbuttonx");
+	let getButton3x = document.querySelector("#thebuttonx");
+	getButtonx.className="ui button";
+	getButton2x.className="ui blue button";
+	getButton3x.className="ui button";
+	ExcerciseAnswer2 = "an";
+	console.log(ExcerciseAnswer2);
+}
+function pressButtonU1The2(){
+	let getButtonx = document.querySelector("#abuttonx");
+	let getButton2x = document.querySelector("#anbuttonx");
+	let getButton3x = document.querySelector("#thebuttonx");
+	getButtonx.className="ui button";
+	getButton2x.className="ui button";
+	getButton3x.className="ui blue button";
+	ExcerciseAnswer2 = "the";
+	console.log(ExcerciseAnswer2);
+}
+
+
+
+
+function returnToNormal(){
+	let getCheck = document.querySelector("#checkAnswerU1");
+	getCheck.className = "ui blue button";
+	getCheck.textContent ="Check";
+}
+function checkAnswerU1(){
+	let getButton = document.querySelector("#abutton");
+	let getButton2 = document.querySelector("#anbutton");
+	let getButton3 = document.querySelector("#thebutton");
+	let getButtonx = document.querySelector("#abuttonx");
+	let getButton2x = document.querySelector("#anbuttonx");
+	let getButton3x = document.querySelector("#thebuttonx");
+	let getCheck = document.querySelector("#checkAnswerU1");
+	let getNext = document.querySelector("#ogdiss");
+
+	if (ExcerciseNo == 1) {
+
+		if (ExcerciseAnswer == "an") {
+			console.log("ganaste");
+			getCheck.className = "ui green button";
+			getCheck.textContent ="Correct!";
+			getButton.id="lmao";
+			getButton2.id="lmao";
+			getButton3.id="lmao";
+			getNext.style.display = "inline";
+
+		}
+		else{
+			console.log("incorrecto");
+			getCheck.className = "ui red button";
+			getCheck.textContent ="Incorrect";
+			setTimeout(returnToNormal, 2000);
+		}
+	}
+
+
+	if (ExcerciseNo == 2) {
+		if (ExcerciseAnswer == "the" && ExcerciseAnswer2== "the") {
+			console.log("ganaste");
+			getCheck.className = "ui green button";
+			getCheck.textContent ="Correct!";
+			getButton.id="lmao";
+			getButton2.id="lmao";
+			getButton3.id="lmao";
+			getNext.style.display = "inline";
+
+		}
+		else{
+			console.log("incorrecto");
+			getCheck.className = "ui red button";
+			getCheck.textContent ="Incorrect";
+			setTimeout(returnToNormal, 2000);
+		}
+	}
+
+}
+
+function nextExcercise(){
+	ExcerciseNo = ExcerciseNo+1;
+	console.log(ExcerciseNo);
+	console.log("bruh");
+	let getExcercise = document.querySelector(".ogchange");
+	let getButton = document.querySelector("#ogdiss");
+
+	getExcercise.innerHTML =     '<h4 id="ogtext2">2.'+  
+							'<div class="ui medium buttons">'+
+						  '<button onclick="pressButtonU1A();" id="abutton" class="ui button">a</button>'+
+						 '<div class="or"></div>'+
+						  '<button onclick="pressButtonU1An();" id="anbutton" class="ui button">an</button>'+
+						  '<div class="or"></div>'+
+						  '<button onclick="pressButtonU1The();" id="thebutton" class="ui button">the</button>'+
+						'</div>'+
+						 'English book is on '+
+						 '<div class="ui medium buttons">'+
+						  '<button onclick="pressButtonU1A2();" id="abuttonx" class="ui button">a</button>'+
+						  '<div class="or"></div>'+
+						  '<button onclick="pressButtonU1An2();" id="anbuttonx"class="ui button">an</button>'+
+						  '<div class="or"></div>'+
+						  '<button onclick="pressButtonU1The2();" id="thebuttonx" class="ui button">the</button>'+
+						'</div>'+
+						'table.'+
+						'</h4>'+
+						'<div class="ogcentered">'+
+						'<button id="checkAnswerU1" onclick="checkAnswerU1();" class="ui blue button">'+
+								  'Check'+
+						'</button>'+
+						'<button id="ogdiss"  onclick="nextExcercise();" class="ui button">'+
+							'Next'+
+						'</button>'+
+					'</div>';
+}
+
+
+
 
 
 
